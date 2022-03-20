@@ -1,0 +1,64 @@
+.awesome-title {
+  padding-bottom: 68px;
+  margin-top: -34px;
+}
+.awesome-item-title {
+  margin-top: 34px;
+}
+
+.title-title {
+  font-family: "Releway";
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(21, 21, 21);
+  text-align: center;
+}
+.title-line {
+  border: 2px solid #e72424;
+  width: 64px;
+  margin: auto;
+}
+.title-text {
+  font-family: "Open+Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}
+
+.awseome-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.awesome-item-content {
+  width: 350px;
+  margin: 0 15px;
+}
+
+.awesome-item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e72424;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+.awesome-item-title {
+  font-family: "Open+Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+}
+
+.awesome-item-text {
+  font-family: "Open+Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+}
