@@ -1,22 +1,19 @@
-.awesome-title {
-  margin-bottom: 68px;
-  margin-top: -34px;
+.awesome {
+  padding: 80px 0 96px;
 }
-.awesome-title-title {
-  margin-top: 34px;
-}
-
 .title-title {
   font-family: "Releway";
   font-size: 36px;
   font-weight: 400;
   color: rgb(21, 21, 21);
   text-align: center;
+  text-transform: uppercase;
 }
 .title-line {
-  border: 2px solid #e72424;
+  border: 1px solid #e72424;
   width: 64px;
   margin: auto;
+  margin-top: 34px;
 }
 .title-text {
   font-family: "Open+Sans";
@@ -24,6 +21,7 @@
   font-weight: 400;
   color: #86878b;
   text-align: center;
+  margin: 34px 0 68px;
 }
 
 .awseome-wrap {
@@ -32,8 +30,7 @@
   flex-wrap: wrap;
   margin: 0 -15px;
 }
-
-.awesome-item-content {
+.awesome-item {
   width: 350px;
   margin: 0 15px;
 }
@@ -63,5 +60,4 @@
   font-weight: 400;
   color: #000000;
   text-align: center;
-  margin-bottom: 20px;
 }

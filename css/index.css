@@ -1,4 +1,5 @@
 @import url("../css/awesome.css");
+@import url("../css/pricing.css");
 @import url("../css/cdn.css");
 
 * {
@@ -8,8 +9,13 @@
   list-style: none;
   text-decoration: none;
 }
+html {
+  font-family: "Open+Sans", "Releway", sans-serif;
+  font-size: 16px;
+}
+
 .conteiner {
   max-width: 1170px;
-  padding: 80px 15px 96px;
+  padding: 0 15px;
   margin: auto;
 }
