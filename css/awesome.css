@@ -1,28 +1,6 @@
 .awesome {
   padding: 80px 0 96px;
 }
-.title-title {
-  font-family: "Releway";
-  font-size: 36px;
-  font-weight: 400;
-  color: rgb(21, 21, 21);
-  text-align: center;
-  text-transform: uppercase;
-}
-.title-line {
-  border: 1px solid #e72424;
-  width: 64px;
-  margin: auto;
-  margin-top: 34px;
-}
-.title-text {
-  font-family: "Open+Sans";
-  font-size: 14px;
-  font-weight: 400;
-  color: #86878b;
-  text-align: center;
-  margin: 34px 0 68px;
-}
 
 .awseome-wrap {
   display: flex;
@@ -37,7 +15,7 @@
 
 .awesome-item-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border: 1px solid #e72424;
   width: 70px;
@@ -46,7 +24,7 @@
   margin: 0 auto 30px;
 }
 .awesome-item-title {
-  font-family: "Open+Sans";
+  font-family: "Open Sans";
   font-size: 20px;
   font-weight: 700;
   color: #333333;
@@ -55,7 +33,7 @@
 }
 
 .awesome-item-text {
-  font-family: "Open+Sans";
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   color: #000000;

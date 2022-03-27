@@ -1,0 +1,74 @@
+.customers {
+  padding: 80px 0 120px;
+}
+
+.customers-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customers-item {
+  width: 298px;
+  margin: 0 15px;
+}
+.customers-item-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  text-align: center;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  position: relative;
+  padding: 9px 22px 6px;
+}
+.customers-item-text::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  position: absolute;
+  bottom: -14px;
+  left: 41px;
+}
+.customers-item-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  padding: 0 44px;
+}
+.customers-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #86878b;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.customers-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.cusromers-content-text {
+  display: flex;
+  flex-direction: column;
+}
+.customer-name {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 14px;
+}
+.customer-profession {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  margin-top: 12px;
+}
