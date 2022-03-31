@@ -22,7 +22,10 @@
   height: 70px;
   border-radius: 50%;
   margin: 0 auto 30px;
+  font-size: 35px;
+  color: orange;
 }
+
 .awesome-item-title {
   font-family: "Open Sans";
   font-size: 20px;

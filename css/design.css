@@ -7,6 +7,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 1;
 }
 .design::after {
   content: "";
@@ -48,23 +49,24 @@
   margin: 34px 0 57px;
 }
 
-.design-download {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 135px;
-  height: 42px;
-  margin: auto;
+.design-item-content {
+  display: block;
   border: 1px solid #ffffff;
+  width: 135px;
+  margin: auto;
+  text-align: center;
+  line-height: 42px;
   cursor: pointer;
+  transition: 1s;
+}
+.design-download {
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 600;
   color: #ffffff;
 }
 
-.design-download:hover {
+.design-item-content:hover {
   background-color: rgb(71, 110, 48);
   color: coral;
-  transition: 1s;
 }

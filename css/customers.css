@@ -13,11 +13,6 @@
   margin: 0 15px;
 }
 .customers-item-text {
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
-  color: #86878b;
-  text-align: center;
   background-color: #e2e2e2;
   border-radius: 7px;
   position: relative;
@@ -31,14 +26,23 @@
   border-right: 20px solid transparent;
   border-top: 20px solid #e2e2e2;
   position: absolute;
-  bottom: -14px;
+  top: 100%;
   left: 41px;
 }
+.customers-item-text-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  text-align: center;
+}
+
 .customers-item-content {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin-top: 22px;
-  padding: 0 44px;
+  margin: 28px auto 0;
+  width: 212px;
 }
 .customers-img {
   display: flex;
@@ -48,27 +52,26 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  overflow: hidden;
 }
 .customers-img img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
+  height: 100%;
 }
 .cusromers-content-text {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 .customer-name {
   font-family: "Open Sans";
   font-size: 20px;
   font-weight: 700;
   color: #333333;
-  margin-top: 14px;
 }
 .customer-profession {
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   color: #86878b;
-  margin-top: 12px;
 }
