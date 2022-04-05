@@ -30,6 +30,7 @@
 
 .media-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .media-list-item {
   margin-left: 65px;

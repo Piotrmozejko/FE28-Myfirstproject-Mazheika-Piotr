@@ -25,6 +25,7 @@
 }
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .navigation-list-item {
   margin-left: 48px;
