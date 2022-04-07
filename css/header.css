@@ -29,7 +29,7 @@
 }
 .navigation-list-item {
   margin-left: 48px;
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid rgba(255, 127, 80, 0);
 }
 .navigation-list-item:first-child {
   margin-left: 0px;
