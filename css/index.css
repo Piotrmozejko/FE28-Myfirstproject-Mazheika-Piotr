@@ -1,6 +1,7 @@
 @import url("../css/header.css");
 @import url("../css/media.css");
 @import url("../css/axit.css");
+@import url("../css/tabs.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
@@ -49,4 +50,46 @@
   color: #86878b;
   text-align: center;
   margin: 34px 0 68px;
+}
+@media (max-width: 1200px) {
+  .conteiner {
+    max-width: 970px;
+  }
+  .axit-wrap {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .axit-text {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+  .conteiner {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 15px;
+  }
+  .conteiner {
+    width: 100%;
+  }
+}
+@media (max-width: 430px) {
+  html {
+    font-size: 14px;
+  }
+  .conteiner {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 14px;
+  }
 }

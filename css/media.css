@@ -37,6 +37,7 @@
 }
 .media-list-item {
   margin-left: 65px;
+  transition: 1s;
 }
 .media-list-item:first-child {
   margin-left: 0px;
@@ -44,4 +45,13 @@
 .media-list-item a {
   font-size: 35px;
   color: rgb(124, 110, 145);
+}
+
+.media-list-item a:hover {
+  color: #7a0e0e;
+}
+
+.media-list-item:hover {
+  color: #7a0e0e;
+  transform: rotate(720deg) scale(2);
 }

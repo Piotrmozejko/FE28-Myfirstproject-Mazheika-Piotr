@@ -1,0 +1,99 @@
+.tabs {
+  padding: 125px 0 125px;
+}
+
+.tabs-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabs-tab-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-tab-content {
+  background-color: #333333;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 110px;
+  width: 112px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.tabs-tab-content:first-child {
+  background-color: #ec7979;
+  margin-top: 0;
+}
+
+.tabs-content {
+  display: flex;
+  flex-direction: column;
+  width: 565px;
+  justify-content: space-between;
+  margin: 0 88px 0 80px;
+}
+
+.tabs-title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.tabs-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}
+
+.tabs-text-text2 {
+  margin-top: 27px;
+}
+
+.tabs-buttom-content {
+  background-color: #ec7979;
+
+  width: 135px;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+  animation-name: download;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes download {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+.tabs-download {
+  display: block;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.tabs-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 253px;
+
+  overflow: hidden;
+}
+.tabs-img img {
+  width: 100%;
+}

@@ -46,23 +46,36 @@
 }
 
 .design-item-content {
-  display: block;
   border: 1px solid #ffffff;
   width: 135px;
   margin: auto;
   text-align: center;
   line-height: 42px;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.2s;
+  animation-name: download;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+@keyframes download {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.5);
+  }
 }
 .design-download {
   font-family: "Open Sans";
   font-size: 15px;
   font-weight: 600;
   color: #ffffff;
+  display: block;
 }
 
 .design-item-content:hover {
   background-color: rgb(71, 110, 48);
-  color: coral;
+  transform: scale(1.2);
 }

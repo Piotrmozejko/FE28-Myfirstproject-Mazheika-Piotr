@@ -22,8 +22,12 @@
   font-weight: 700;
   color: #ffffff;
   background-color: #333333;
+  transition: 0.2s;
 }
-
+.picing-list-tarif:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
+}
 .picing-list-cost {
   line-height: 100px;
   font-family: "Raleway";
@@ -32,6 +36,11 @@
   color: #ffffff;
   background-color: #333333;
   margin: 2px 0;
+  transition: 0.2s;
+}
+.picing-list-cost:hover {
+  box-shadow: 5px 5px 5px 5px rgba(252, 4, 4, 0.5);
+  transform: scale(1.5);
 }
 
 .picing-list-content {
@@ -41,8 +50,12 @@
   font-weight: 600;
   color: rgb(255, 255, 255, 0.5);
   background-color: #333333;
+  transition: 0.2s;
 }
-
+.picing-list-content:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
+}
 .picing-list-item {
   line-height: 40px;
   font-family: "Open Sans";
@@ -51,4 +64,9 @@
   color: #86878b;
   background-color: #ffffff;
   margin-top: 4px;
+  transition: 0.2s;
+}
+.picing-list-item:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.5);
 }
